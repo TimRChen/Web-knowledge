@@ -15,6 +15,6 @@
 
 #### Network Questions
 *   一般来说，为什么多域名指向一个站点会更好？
->   为什么很多网站的静态资源会使用独立的域名？
->   http://www.zhihu.com/question/20534662
+>>   为什么很多网站的静态资源会使用独立的域名？
+>>   http://www.zhihu.com/question/20534662
 
