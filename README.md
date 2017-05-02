@@ -25,6 +25,9 @@ http://www.zhihu.com/question/20534662
 >    首先解释下`同源策略` 
 https://github.com/qiu-deqing/FE-interview
 
+>    跨域资源共享(CORS)
+https://segmentfault.com/a/1190000000718840
+
 符合`同源策略`，需要满足三个条件：
 1. 协议相同
 2. 域名相同
