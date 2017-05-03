@@ -4,16 +4,14 @@ class Ajax  {
         this.xhr = xhr;
     }
 
-    get() {
+    send(method, url, async) {
         let xhr = this.xhr;
-
-        xhr.open('get', 'text.txt', true);
-
+        xhr.open(method, url, async);
         xhr.send();
 
         xhr.onreadystatechange = () => {
             if (xhr.readyState === 4 && xhr.status === 200) {
-                document.getElementById("test").innerHTML = xhr.responseText;
+                console.log(xhr.responseText);
             }
         };
     }
