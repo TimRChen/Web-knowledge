@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>    
+    <script>
+        class Ajax  {
+            constructor(xhr) {
+                xhr = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+                this.xhr = xhr;
+            }
+
+            get() {
+                let xhr = this.xhr;
+
+                xhr.open('get', 'text.txt', true);
+
+                xhr.send();
+
+                xhr.onreadystatechange = () => {
+                    if (xhr.readyState === 4 && xhr.status === 200) {
+                        document.getElementById("test").innerHTML = xhr.responseText;
+                    }
+                };
+            }
+        }
+
+        let ajax = new Ajax();
+
+    </script>
+
+
+    <h1 id="test">Test</h1>
+
+    <button type="button" onclick="ajax.get()">Submit</button>
+</body>
+</html>

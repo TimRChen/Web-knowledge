@@ -1,6 +1,11 @@
 ## Front-end 知识点整理
 收集整理前端面试知识点.
 
+## File
+*   `ajax.html`ajax应用场景实现
+    *   异步请求数据
+    *   创建跨域请求
+
 ## Contents
 ***
 
