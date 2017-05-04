@@ -8,10 +8,19 @@
 </head>
 <body>    
     <script src="./ajax.js"></script>
+	<script>
+		let ajax = new Ajax();
+
+		clickAjax = () => {		
+			ajax.send('get', 'text.txt', true, (resData) => {
+				console.log(resData);
+			});
+		}
+	</script>
 
 
     <h1 id="test">Test</h1>
 
-    <button type="button" onclick="ajax.send('get', 'text.txt', true)">Submit</button>
+    <button type="button" onclick="clickAjax()">Submit</button>
 </body>
 </html>
