@@ -8,7 +8,6 @@
     *   创建跨域请求`continue`
 
 ## Contents
-***
 
 1. HTML Questions
 2. CSS Questions
@@ -17,7 +16,6 @@
 5. General Questions
 
 ## The Questions
-***
 
 #### 4.Network Questions
 *   **一般来说，为什么多域名指向一个站点会更好？**
