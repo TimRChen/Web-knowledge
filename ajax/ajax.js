@@ -6,14 +6,18 @@ class Ajax  {
 
     send(method, url, async) {
         let xhr = this.xhr;
-        xhr.open(method, url, async);
-        xhr.send();
+        xhr.open(method, url, async);   
+        xhr.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+        xhr.send("name=TimRChen");
 
         xhr.onreadystatechange = () => {
-            if (xhr.readyState === 4 && xhr.status === 200) {
-                console.log(xhr.responseText);
+            // readyState: 0: init, 1: connect has set up, 2: recive request, 3: request.. , 4: request end, send response
+            if (xhr.readyState === 4 && xhr.status === 200) {  
+                // status: 200: OK,  404: Not Found Page
+                document.getElementById('test').innerHTML = xhr.responseText;
             }
         };
+
     }
 }
 
