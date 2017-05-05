@@ -5,6 +5,11 @@ class Ajax  {
     }
 
     send(method, url, async, callback, data) {
+    // send(options) {
+
+        // options = 
+
+
         let xhr = this.xhr;
 
         xhr.onreadystatechange = () => {
@@ -20,6 +25,3 @@ class Ajax  {
         xhr.send(data);
     }
 }
-
-
-module ? (module.exports = Ajax) : null;

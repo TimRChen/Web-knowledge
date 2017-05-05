@@ -13,7 +13,7 @@
 
 		clickAjax = () => {		
 			ajax.send('get', 'text.txt', true, (resData) => {
-				console.log(resData);
+				document.getElementById("test").innerHTML = resData
 			});
 		}
 	</script>
