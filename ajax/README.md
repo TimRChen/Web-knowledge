@@ -9,12 +9,36 @@
     *   完善回调处理流程，较之前相比更加简洁
 
 ## 使用
-    首先实例化Ajax类，let ajax = new Ajax() 即可。Ajax类中没有定义静态方法。子类可继承。
+    首先实例化Ajax类，let ajax = new Ajax() ，Ajax类中没有定义静态方法。子类可继承。
+    eg: 
+```js
+    let ajax = new Ajax();
+    const options = {
+        type: 'get',
+        url: 'someurl',
+        async: true,
+        dataType: 'json',
+        questring: 'name=TimRChen'
+    };
+    ajax.send(options).then(data => {
+        console.log(data);
+    }).catch(error => {
+        console.log(error);
+    };
 
 ## API
-
 名称 | 调用方法 | 备注
 ---- | ------- | ----
-send | new Ajax().send() | 参数有`method` `url` `async` `callback` `data`
-callback | (resData) => { console.log(resData) } | 参数为`responseText`值，可指定任意形参
-调用形式: new Ajax().send(method, url, async, callback, data)|
+send | new Ajax().send() | 参数为`options`对象
+
+
+## options
+Name | Type | Others
+---- | ------ | ------
+type | `get` & `post` | 
+url  | `String` |
+async| `true` & `false` | 
+dataType | `json` | 
+questring| `queryString` | 查询字符串，用于表单发送ajax需求
+
+
