@@ -11,16 +11,25 @@
 	<script>
 		let ajax = new Ajax();
 
+		const options = {
+            type: 'get',
+            url: 'text.json',
+            async:true,
+            dataType: 'json'
+		};
+
 		clickAjax = () => {		
-			ajax.send('get', 'text.txt', true, (resData) => {
-				document.getElementById("test").innerHTML = resData
+			ajax.send(options).then(data => {
+				document.getElementById("fillin").innerHTML = data.about;
+			}).catch(error => {
+				console.log(error);
 			});
 		}
 	</script>
 
 
     <h1 id="test">Test</h1>
-
+	<div id="fillin"></div>
     <button type="button" onclick="clickAjax()">Submit</button>
 </body>
 </html>
