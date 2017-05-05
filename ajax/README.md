@@ -12,8 +12,9 @@
     首先实例化Ajax类，let ajax = new Ajax() 即可。Ajax类中没有定义静态方法。子类可继承。
 
 ## API
-| 名称 | 调用方法 | 备注 |
-| ---- | ------- | ---- |
-| send | new Ajax().send() | 参数有`method` `url` `async` `callback` `data` |
-| callback | (resData) => { console.log(resData) } | 参数为`responseText`值，可指定任意形参 | 
-|调用形式: new Ajax().send(method, url, async, callback, data)| :---: | :---: |
+
+名称 | 调用方法 | 备注
+---- | ------- | ----
+send | new Ajax().send() | 参数有`method` `url` `async` `callback` `data`
+callback | (resData) => { console.log(resData) } | 参数为`responseText`值，可指定任意形参
+调用形式: new Ajax().send(method, url, async, callback, data)|
