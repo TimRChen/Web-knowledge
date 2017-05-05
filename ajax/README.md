@@ -25,6 +25,7 @@
     }).catch(error => {
         console.log(error);
     };
+```
 
 ## API
 名称 | 调用方法 | 备注
