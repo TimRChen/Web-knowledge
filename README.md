@@ -12,24 +12,24 @@
 
 ## Contents
 
-1. [HTML Questions](#1.HTML Questions)
-2. [CSS Questions](#2.CSS Questions)
-3. [JS Questions](#3.JS Questions)
-4. [Network Questions](#4.Network Questions)
-5. [General Questions](#5.General Questions)
+1. [HTML Questions](#HTML Questions)
+2. [CSS Questions](#CSS Questions)
+3. [JS Questions](#JS Questions)
+4. [Network Questions](#Network Questions)
+5. [General Questions](#General Questions)
 
 ## The Questions
 
-#### 1.HTML Questions
+#### HTML Questions
 
-#### 2.CSS Questions
+#### CSS Questions
 *   盒模型的了解？
 
-#### 3.JS Questions
+#### JS Questions
 *   你对原型链及闭包的理解与应用？
 >   http://www.cnblogs.com/wangfupeng1988/p/4001284.html
 
-#### 4.Network Questions
+#### Network Questions
 *   **一般来说，为什么多域名指向一个站点会更好？**
 >  为什么很多网站的静态资源会使用独立的域名？
 http://www.zhihu.com/question/20534662
@@ -58,5 +58,5 @@ https://segmentfault.com/a/1190000000718840
 
 
 
-#### 5.General Questions
+#### General Questions
 *   对w3c标准的理解？
