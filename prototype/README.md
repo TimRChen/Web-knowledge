@@ -55,6 +55,7 @@ Object.__proto__ === Function.prototype
 ```
 *   ![Follow TimRChen](https://raw.githubusercontent.com/TimRChen/photoRepo/master/prototype1.png)
 *   ![Follow TimRChen](https://raw.githubusercontent.com/TimRChen/photoRepo/master/prototype2.png)
+
 ```js
 Function.prototype.__proto__ === Object.prototype
 Object.__proto__.__proto__ === Object.prototype
