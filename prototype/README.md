@@ -49,6 +49,16 @@ console.log(Object.prototype.__proto__);
 ```
 *   **Object.prototype的`__proto__`指向的是`null`，切记！**
 *   ![Follow TimRChen](https://raw.githubusercontent.com/TimRChen/photoRepo/master/prototype.png)
+```js
+Object.__proto__ === Function.prototype
+// 下图表示
+```
+*   ![Follow TimRChen](https://raw.githubusercontent.com/TimRChen/photoRepo/master/prototype2.png)
+*   ![Follow TimRChen](https://raw.githubusercontent.com/TimRChen/photoRepo/master/prototype3.png)
+```js
+Function.prototype.__proto__ === Object.prototype
+Object.__proto__.__proto__ === Object.prototype
+```
 
 
 ## closure
