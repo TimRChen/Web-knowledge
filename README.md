@@ -12,11 +12,11 @@
 
 ## Contents
 
-1. HTML Questions
-2. CSS Questions
-3. JS Questions
-4. Network Questions
-5. General Questions
+1. [HTML Questions](#1.HTML Questions)
+2. [CSS Questions](#2.CSS Questions)
+3. [JS Questions](#3.JS Questions)
+4. [Network Questions](#4.Network Questions)
+5. [General Questions](#5.General Questions)
 
 ## The Questions
 
