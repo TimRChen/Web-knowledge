@@ -48,7 +48,7 @@ console.log(Object.prototype.__proto__);
 //  null
 ```
 *   **Object.prototype的`__proto__`指向的是`null`，切记！**
-*   [!Follow TimRChen](https://raw.githubusercontent.com/TimRChen/photoRepo/master/prototype.png)
+*   ![Follow TimRChen](https://raw.githubusercontent.com/TimRChen/photoRepo/master/prototype.png)
 
 
 ## closure
