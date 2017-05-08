@@ -1,11 +1,14 @@
 ## Front-end 知识点整理
-收集整理前端面试知识点.
+收集整理fe知识点.
 
-## File
+### ajax
 *   使用wamp将文件渲染在服务器上，符合同源策略，在本地环境直接请求将出错！
 *   `ajax.html`ajax应用场景实现
     *   异步请求数据`close`
     *   创建跨域请求`continue`
+
+### prototype
+*   对原型链的深入研究及理解，包含ES6的Class创建实现继承
 
 ## Contents
 
