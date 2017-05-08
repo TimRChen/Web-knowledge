@@ -17,6 +17,15 @@
 
 ## The Questions
 
+#### 1.HTML Questions
+
+#### 2.CSS Questions
+*   盒模型的了解？
+
+#### 3.JS Questions
+*   你对原型链及闭包的理解与应用？
+>   http://www.cnblogs.com/wangfupeng1988/p/4001284.html
+
 #### 4.Network Questions
 *   **一般来说，为什么多域名指向一个站点会更好？**
 >  为什么很多网站的静态资源会使用独立的域名？
@@ -43,3 +52,8 @@ https://segmentfault.com/a/1190000000718840
     *   现代浏览器中**多窗口通信**使用HTML5规范的`targetWindow.postMessage(data, origin)`; 其中data是需要发送的对象，origin是目标窗口的origin。`window.addEventListener('message', handler, false)`; handler的event.data是postMessage发送来的数据，event.origin是发送窗口的origin，event.source是发送消息的窗口引用
     *   内部服务器代理请求跨域url，然后返回数据
     *   跨域请求数据，现代浏览器可使用HTML5规范的**CORS**功能，只要目标服务器返回HTTP头部`Access-Control-Allow-Origin: `即可像普通ajax一样访问跨域资源
+
+
+
+#### 5.General Questions
+*   对w3c标准的理解？
