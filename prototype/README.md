@@ -67,6 +67,7 @@ Object.__proto__.__proto__ === Object.prototype
 ![Follow TimRChen](https://raw.githubusercontent.com/TimRChen/photoRepo/master/prototype3.png)
 ## Instanceof运算符的第一个变量是一个对象，暂时称为A；第二个变量一般是一个函数，暂时称为B.
 ## Instanceof的判断队则是：沿着A的`__proto__`这条线来找，同时沿着B的`prototype`这条线来找，如果两条线能找到同一个引用，即同一个对象，那么就返回true。如果找到终点还未重合，则返回false。
+![Follow TimRChen](https://raw.githubusercontent.com/TimRChen/photoRepo/master/prototype5.png)
 >总结
 ![Follow TimRChen](https://raw.githubusercontent.com/TimRChen/photoRepo/master/prototypeSum.png)
 ## closure
