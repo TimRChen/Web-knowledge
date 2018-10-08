@@ -1,6 +1,9 @@
 ## Front-end 知识点整理
 收集整理fe知识点.
 
+### [promise](https://github.com/TimRChen/Web-knowledge/tree/master/promise)
+*   原生实现代码
+
 ### [ajax](https://github.com/TimRChen/Web-knowledge/tree/master/ajax)
 *   使用wamp将文件渲染在服务器上，符合同源策略，在本地环境直接请求将出错！
 *   `ajax.html`ajax应用场景实现
